@@ -20,7 +20,7 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>SequenceFlow_2</bpmn2:incoming>
     </bpmn2:endEvent>
-    <bpmn2:scriptTask id="ScriptTask_1" drools:selectable="true" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="Init1" scriptFormat="http://www.java.com/java">
+    <bpmn2:scriptTask id="ScriptTask_1" drools:selectable="true" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="Init21" scriptFormat="http://www.java.com/java">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue value="Init"><![CDATA[Init]]></drools:metaValue>
@@ -103,7 +103,7 @@ System.out.println(kcontext.getVariable(&quot;i&quot;));</bpmn2:script>
       <bpmndi:BPMNShape id="_KBJktjKGEeeP-r2MmYFydw" bpmnElement="ScriptTask_1">
         <dc:Bounds height="50.0" width="110.0" x="422.0" y="225.0"/>
         <bpmndi:BPMNLabel id="BPMNLabel_3" labelStyle="BPMNLabelStyle_1">
-          <dc:Bounds height="15.0" width="23.0" x="465.0" y="242.0"/>
+          <dc:Bounds height="15.0" width="30.0" x="462.0" y="242.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="_KBJktzKGEeeP-r2MmYFydw" bpmnElement="ExclusiveGateway_1" isMarkerVisible="true">
